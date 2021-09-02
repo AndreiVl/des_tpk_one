@@ -1,0 +1,10 @@
+mixin menu(data)
+	nav.menu(class!=attributes.class)
+		ul.menu__list
+			- for (var i = 0; i < data.length; i++)
+				if i == 0
+					li.menu__item.menu__item--active
+						a.menu__link(href=data[i]['url'])=data[i]['text']
+				else
+					li.menu__item
+						a.menu__link(href=data[i]['url'])=data[i]['text']

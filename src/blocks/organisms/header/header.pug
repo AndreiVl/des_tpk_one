@@ -1,0 +1,24 @@
+header.header
+	div.header__top
+		div.container
+			div.header__top-body
+				div.header__top-left
+					div.header__log
+						+logo({img: 'logo.png', img_2: 'logo-png.png', alt: 'Интернет-магазин комплектующих для дистилляции', title: 'Интернет-магазин комплектующих для дистилляции'})
+					h1.h1.header__title Комплектующие для&nbsp;дистилляции
+				div.header__top-right
+					div.header__contacts
+						p.text Для дилеров: 
+							a.link(href="mailto:tpk-2020@mail.ru") tpk-2020@mail.ru
+						p.text Для оптовиков: 
+							a.link(href="mailto:opttpk@mail.ru") opttpk@mail.ru
+	div.header__bottom
+		div.container
+			div.header__menu
+				+menu([
+					{url: '#connections', text: "Кламп соединения"},
+					{url: "#nozzle", text: "Насадка"},
+					{url: "#other", text: "Прочее"},
+					{url: "#dealers", text: "Диллерство"},
+					{url: "#wholesalers", text: "Оптовикам"}
+				])

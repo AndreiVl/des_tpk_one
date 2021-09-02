@@ -1,0 +1,125 @@
+section.connections(id="connections")
+	div.container
+		div.row
+			div.col-12
+				h2.h1.connections__title Кламп соединения
+
+				h3.connections__tabs-title Категории
+		div.connections__tabs
+			+tabs({
+				items: [
+					{url: '#tab-2', link: 'В сборе'},
+					{url: '#tab-1', link: 'Диоптры'},				
+					{url: '#tab-3', link: 'Заглушки'},
+					{url: '#tab-4', link: 'Кольца проточные (clamp)'},
+					{url: '#tab-5', link: 'Отводы'},
+					{url: '#tab-6', link: 'Переходы ( clamp-clamp)'},
+					{url: '#tab-7', link: 'Прокладка'},
+					{url: '#tab-8', link: 'Фланец'},
+					{url: '#tab-9', link: 'Хомут'}
+					]
+			})
+
+			//- В сборе
+			div.connections__tab(id='tab-2')
+				div.row
+					div.col-12.col-md-4.connections__flex
+						div.item-card 
+							+card({img: 'klamp_v_sbore.png', alt: 'Кламп в сборе 1,5 дюйма (ф38)', img_title: 'Кламп в сборе 1,5 дюйма (ф38)', title: 'Кламп в сборе 1,5 дюйма (ф38)', info_1: 'Цена без НДС: средний опт', price_1: '170 руб.',  info_2: 'Цена без НДС: крупный опт', price_2: 'Уточняйте', })
+					div.col-12.col-md-4.connections__flex
+						div.item-card 
+							+card({img: 'klamp_v_sbore.png', alt: 'Кламп в сборе 1,8 дюйма (ф45)', img_title: 'Кламп в сборе 1,8 дюйма (ф45)', title: 'Кламп в сборе 1,8 дюйма (ф45)', info_1: 'Цена без НДС: средний опт', price_1: '220 руб.',  info_2: 'Цена без НДС: крупный опт', price_2: 'Уточняйте', })
+					div.col-12.col-md-4.connections__flex
+						div.item-card 
+							+card({img: 'klamp_v_sbore.png', alt: 'Кламп в сборе 2 дюйма (ф51)', img_title: 'Кламп в сборе 2 дюйма (ф51)', title: 'Кламп в сборе 2 дюйма (ф51)', info_1: 'Цена без НДС: средний опт', price_1: '215 руб.',  info_2: 'Цена без НДС: крупный опт', price_2: 'Уточняйте', })
+					div.col-12.col-md-4.connections__flex
+						div.item-card 
+							+card({img: 'klamp_v_sbore.png', alt: 'Кламп в сборе 3 дюйма (ф76)', img_title: 'Кламп в сборе 3 дюйма (ф76)', title: 'Кламп в сборе 3 дюйма (ф76)', info_1: 'Цена без НДС: средний опт', price_1: '335 руб.',  info_2: 'Цена без НДС: крупный опт', price_2: 'Уточняйте', })
+					div.col-12.col-md-4.connections__flex
+						div.item-card 
+							+card({img: 'klamp_v_sbore.png', alt: 'Кламп в сборе 4 дюйма (ф102)', img_title: 'Кламп в сборе 4 дюйма (ф102)', title: 'Кламп в сборе 4 дюйма (ф102)', info_1: 'Цена без НДС: средний опт', price_1: 'Уточняйте',  info_2: 'Цена без НДС: крупный опт', price_2: 'Уточняйте', })
+
+			//- Диоптры
+			div.connections__tab(id='tab-1')
+				div.row
+					div.col-12.col-md-4.connections__flex
+						div.item-card 
+							+card({img: 'dioptr.png', alt: 'Диоптр 1,5 дюйма (ф38)', img_title: 'Диоптр 1,5 дюйма (ф38)', title: 'Диоптр 1,5 дюйма (ф38)', info_1: 'Цена без НДС: средний опт', price_1: '950 руб.',  info_2: 'Цена без НДС: крупный опт', price_2: 'Уточняйте', })
+					div.col-12.col-md-4.connections__flex
+						div.item-card 
+							+card({img: 'dioptr.png', alt: 'Диоптр 2 дюйма (ф51)', img_title: 'Диоптр 2 дюйма (ф51)', title: 'Диоптр 2 дюйма (ф51)', info_1: 'Цена без НДС: средний опт', price_1: '1250 руб.',  info_2: 'Цена без НДС: крупный опт', price_2: 'Уточняйте', })
+					div.col-12.col-md-4.connections__flex
+						div.item-card 
+							+card({img: 'dioptr.png', alt: 'Диоптр 3 дюйма (ф76)', img_title: 'Диоптр 3 дюйма (ф76)', title: 'Диоптр 3 дюйма (ф76)', info_1: 'Цена без НДС: средний опт', price_1: 'Уточняйте',  info_2: 'Цена без НДС: крупный опт', price_2: 'Уточняйте', })
+					div.col-12.col-md-4.connections__flex
+						div.item-card 
+							+card({img: 'dioptr.png', alt: 'Диоптр 4 дюйма (ф102)', img_title: 'Диоптр 4 дюйма (ф102)', title: 'Диоптр 4 дюйма (ф102)', info_1: 'Цена без НДС: средний опт', price_1: 'Уточняйте',  info_2: 'Цена без НДС: крупный опт', price_2: 'Уточняйте', })
+
+			//- Заглушки
+			div.connections__tab(id='tab-3')
+				div.row
+					div.col-12.col-md-4.connections__flex
+						div.item-card 
+							+card({img: 'zaglushka.png', alt: 'Заглушка на 1,5 дюйма (ф38)', img_title: 'Заглушка на 1,5 дюйма (ф38)', title: 'Заглушка на 1,5 дюйма (ф38)', info_1: 'Цена без НДС: средний опт', price_1: '50 руб.',  info_2: 'Цена без НДС: крупный опт', price_2: 'Уточняйте', })
+					div.col-12.col-md-4.connections__flex
+						div.item-card 
+							+card({img: 'zaglushka.png', alt: 'Заглушка на  2 дюйма (ф51)', img_title: 'Заглушка на  2 дюйма (ф51)', title: 'Заглушка на  2 дюйма (ф51)', info_1: 'Цена без НДС: средний опт', price_1: '70 руб.',  info_2: 'Цена без НДС: крупный опт', price_2: 'Уточняйте', })
+
+			//- Кольца с проточные (clamp)
+			div.connections__tab(id='tab-4')
+				div.row
+					div.col-12.col-md-4.connections__flex
+						div.item-card 
+							+card({img: 'kolco.png', alt: 'Кольца под clamp:  1,5 дюйма (ф38), проточные.', img_title: 'Кольца под clamp:  1,5 дюйма (ф38), проточные.', title: 'Кольца под clamp:  1,5 дюйма (ф38), проточные.', info_1: 'Цена без НДС: средний опт', price_1: '42 руб.',  info_2: 'Цена без НДС: крупный опт', price_2: 'Уточняйте', })
+					div.col-12.col-md-4.connections__flex
+						div.item-card 
+							+card({img: 'kolco.png', alt: 'Кольца под clamp:  2 дюйма (ф51), проточные.', img_title: 'Кольца под clamp:  2 дюйма (ф51), проточные.', title: 'Кольца под clamp:  2 дюйма (ф51), проточные.', info_1: 'Цена без НДС: средний опт', price_1: '54 руб.',  info_2: 'Цена без НДС: крупный опт', price_2: 'Уточняйте', })
+
+			//- Отводы
+			div.connections__tab(id='tab-5')
+				div.row
+					div.col-12.col-md-4.connections__flex
+						div.item-card 
+							+card({img: 'otvod_90_clamp.png', alt: 'Отводы 90: на 1,5 дюйма (ф38)', img_title: 'Отводы 90: на 1,5 дюйма (ф38)', title: 'Отводы 90: на 1,5 дюйма (ф38)', info_1: 'Цена без НДС: средний опт', price_1: '280 руб.',  info_2: 'Цена без НДС: крупный опт', price_2: 'Уточняйте'})
+					div.col-12.col-md-4.connections__flex
+						div.item-card 
+							+card({img: 'otvod_90_clamp.png', alt: 'Отводы 90:  на 2 дюйма (ф51)', img_title: 'Отводы 90:  на 2 дюйма (ф51)', title: 'Отводы 90:  на 2 дюйма (ф51)', info_1: 'Цена без НДС: средний опт', price_1: 'Уточняйте',  info_2: 'Цена без НДС: крупный опт', price_2: 'Уточняйте', })
+
+			//- Переходы (clamp-clamp)
+			div.connections__tab(id='tab-6')
+				div.row
+					div.col-12.col-md-4.connections__flex
+						div.item-card 
+							+card({img: 'perehodnik.png', alt: 'Переходы  38*51(51*38)', img_title: 'Переходы  38*51(51*38)', title: 'Переходы  38*51(51*38)', info_1: 'Цена без НДС: средний опт', price_1: '348 руб.',  info_2: 'Цена без НДС: крупный опт', price_2: 'Уточняйте'})
+					div.col-12.col-md-4.connections__flex
+						div.item-card 
+							+card({img: 'perehodnik.png', alt: 'Переходы 51*76', img_title: 'Переходы 51*76', title: 'Переходы 51*76', info_1: 'Цена без НДС: средний опт', price_1: 'Уточняйте',  info_2: 'Цена без НДС: крупный опт', price_2: 'Уточняйте'})
+
+			//- Прокладка
+			div.connections__tab(id='tab-7')
+				div.row
+					div.col-12.col-md-4.connections__flex
+						div.item-card 
+							+card({img: 'prokladka.png', alt: 'Прокладка 1,5 дюйма (ф38)', img_title: 'Прокладка 1,5 дюйма (ф38)', title: 'Прокладка 1,5 дюйма (ф38)', info_1: 'Цена без НДС: средний опт', price_1: '4 руб.',  info_2: 'Цена без НДС: крупный опт', price_2: 'Уточняйте', })
+					div.col-12.col-md-4.connections__flex
+						div.item-card 
+							+card({img: 'prokladka.png', alt: 'Прокладка 2 дюйма (ф51)', img_title: 'Прокладка 2 дюйма (ф51)', title: 'Прокладка 2 дюйма (ф51)', info_1: 'Цена без НДС: средний опт', price_1: '6 руб.',  info_2: 'Цена без НДС: крупный опт', price_2: 'Уточняйте', })
+			//- Фланец
+			div.connections__tab(id='tab-8')
+				div.row
+					div.col-12.col-md-4.connections__flex
+						div.item-card 
+							+card({img: 'flanec.png', alt: 'Фланец: 1,5 дюйма (ф38)', img_title: 'Фланец: 1,5 дюйма (ф38)', title: 'Фланец: 1,5 дюйма (ф38)', info_1: 'Цена без НДС: средний опт', price_1: '50 руб.',  info_2: 'Цена без НДС: крупный опт', price_2: 'Уточняйте', })
+					div.col-12.col-md-4.connections__flex
+						div.item-card 
+							+card({img: 'flanec.png', alt: 'Фланец: 2 дюйма (ф51)', img_title: 'Фланец: 2 дюйма (ф51)', title: 'Фланец: 2 дюйма (ф51)', info_1: 'Цена без НДС: средний опт', price_1: '56 руб.',  info_2: 'Цена без НДС: крупный опт', price_2: 'Уточняйте', })
+
+			//- Хомут
+			div.connections__tab(id='tab-9')
+				div.row
+					div.col-12.col-md-4.connections__flex
+						div.item-card 
+							+card({img: 'homut.png', alt: 'Хомут: 1,5 дюйма (ф38)', img_title: 'Хомут: 1,5 дюйма (ф38)', title: 'Хомут: 1,5 дюйма (ф38)', info_1: 'Цена без НДС: средний опт', price_1: '80 руб.',  info_2: 'Цена без НДС: крупный опт', price_2: 'Уточняйте', })
+					div.col-12.col-md-4.connections__flex
+						div.item-card 
+							+card({img: 'homut.png', alt: 'Хомут: 2 дюйма (ф51)', img_title: 'Хомут: 2 дюйма (ф51)', title: 'Хомут: 2 дюйма (ф51)', info_1: 'Цена без НДС: средний опт', price_1: '102 руб.',  info_2: 'Цена без НДС: крупный опт', price_2: 'Уточняйте', })

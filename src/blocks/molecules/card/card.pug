@@ -1,0 +1,15 @@
+mixin card(data)
+	div.card
+		div.card__img
+			img(src="images/"+data.img, alt=data.alt, title=data.img_title)
+		div.card__body
+			div.card__body-top
+				p.card__title!=data.title
+			div.card__bottom
+				div.card__bottom-top
+					p.card__info!=data.info_1
+					span.card__price!=data.price_1
+				div.card__bottom-bottom
+					p.card__info!=data.info_2
+					span.card__price!=data.price_2
+

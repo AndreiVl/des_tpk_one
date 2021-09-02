@@ -1,0 +1,96 @@
+.btn {
+	/* 1 Positioning */
+	position: relative;
+
+	/* 2 Block model */
+	box-sizing: border-box;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 59px;
+	margin: 0;
+
+	/* 3 Typography */
+	font-family: $font-main;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	color: $color-white;
+	text-decoration: none;
+	vertical-align: middle;
+
+	/* 4 Visual */
+	cursor: pointer;
+	user-select: none;
+	background-color: #484848;
+	border: 1px solid #484848;
+	outline: none;
+
+	/* 5 Animation */
+	transition: all $animation-speed;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-webkit-tap-highlight-color: transparent;
+
+	@media (min-width: 992px) {
+		/* 2 Block model */
+		padding: 10px 20px;
+	}
+	@media (min-width: 1200px) {
+		/* 2 Block model */
+		padding: 10px 59px;
+	}
+}
+.btn:hover {
+	/* 3 Typography */
+	color: #484848;
+
+	/* 4 Visual */
+	background-color: #ffffff;
+}
+.btn:focus {
+	/* 3 Typography */
+	color: #484848;
+
+	/* 4 Visual */
+	background-color: #ffffff;
+}
+.btn:active {
+	/* 3 Typography */
+	color: #484848;
+
+	/* 4 Visual */
+	background-color: #ffffff;
+}
+.btn:disabled {
+	/* 4 Visual */
+	cursor: not-allowed;
+	opacity: 0.4;
+}
+.btn__text {
+	/* 5 Animation */
+	transition: all $animation-speed;
+}
+.btn .icon {
+	/* 2 Block model */
+	box-sizing: inherit;
+	flex-shrink: 0;
+
+	/* 4 Visual */
+	fill: #000000;
+
+	/* 5 Animation */
+	transition: all $animation-speed;
+}
+// .btn:hover .icon {
+// 	/* 4 Visual */
+// 	fill: #000000;
+// }
+.btn .icon:first-child:not(:last-child) {
+	/* 2 Block model */
+	margin-right: 9px;
+}
+.btn .icon:last-child:not(:first-child) {
+	/* 2 Block model */
+	margin-left: 9px;
+}

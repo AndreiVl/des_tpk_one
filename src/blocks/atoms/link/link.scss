@@ -1,0 +1,20 @@
+.link {
+	/* 3 Typography */
+	text-decoration: none;
+	color: $color-link;
+
+	/* 4 Visual */
+	outline: none;
+
+	/* 5 Animation */
+	transition: all $animation-speed;
+}
+.link:hover,
+.link:focus,
+.link:active {
+	/* 3 Typography */
+	text-decoration: none;
+
+	/* 4 Visual */
+	opacity: 0.7;
+}

@@ -1,0 +1,7 @@
+mixin logo(data)
+	a.logo(href="/")
+		picture.logo__picture
+			source(
+				srcset="images/"+data.img_2, media="(max-width: 991px)"
+			)
+			img.logo__img(src="images/"+data.img,  alt=data.alt, title=data.title)

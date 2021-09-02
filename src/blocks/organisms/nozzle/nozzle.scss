@@ -1,0 +1,26 @@
+.nozzle {
+	/* 2 Block model */
+	margin-bottom: 40px;
+	@media (min-width: 992px) {
+		/* 2 Block model */
+		margin-bottom: 80px;
+	}
+}
+.nozzle__title {
+	/* 2 Block model */
+	margin-bottom: 40px;
+}
+.nozzle .item-card {
+	/* 2 Block model */
+	margin-bottom: 34px;
+}
+.nozzle__flex {
+	/* 2 Block model */
+	display: flex;
+	justify-content: center;
+
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		justify-content: flex-start;
+	}
+}

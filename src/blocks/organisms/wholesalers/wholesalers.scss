@@ -1,0 +1,56 @@
+.wholesalers {
+	/* 2 Block model */
+	margin-bottom: 40px;
+	@media (min-width: 992px) {
+		/* 2 Block model */
+		margin-bottom: 80px;
+	}
+}
+.wholesalers__body {
+	/* 2 Block model */
+	margin-bottom: 40px;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		margin-bottom: 0;
+	}
+}
+.wholesalers__title {
+	/* 2 Block model */
+	margin-bottom: 20px;
+}
+.wholesalers__text-strong {
+	/* 2 Block model */
+	margin-bottom: 10px;
+}
+.wholesalers__list {
+	/* 2 Block model */
+	padding: 0;
+	margin: 0;
+
+	/* 4 Visual */
+	list-style: none;
+}
+.wholesalers__item {
+	/* 1 Positioning */
+	position: relative;
+
+	/* 2 Block model */
+	padding-left: 10px;
+	margin-bottom: 5px;
+	&::before {
+		/* 1 Positioning */
+		position: absolute;
+		top: 7px;
+		left: 0;
+
+		/* 2 Block model */
+		display: block;
+		width: 2px;
+		height: 2px;
+
+		/* 4 Visual */
+		content: "";
+		background-color: #898989;
+		border-radius: 50%;
+	}
+}

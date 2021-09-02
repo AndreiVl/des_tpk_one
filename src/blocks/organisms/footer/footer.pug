@@ -1,0 +1,17 @@
+footer.footer
+	div.footer__menu
+		div.container
+			div.row
+				div.col-12
+					div.footer__menu-body
+						+menu([
+							{url: '#connections', text: "Кламп соединения"},
+							{url: "#other", text: "Прочее"},
+							{url: "#dealers", text: "Диллерство"},
+							{url: "#wholesalers", text: "Оптовикам"}
+						])(class="menu--footer")
+	div.footer__menu-bottom
+		div.container
+			div.row
+				div.col-12
+					p.text.text--gray 2020&copy; Все права защищены. Информация сайта защищена законом об&nbsp;авторских правах.

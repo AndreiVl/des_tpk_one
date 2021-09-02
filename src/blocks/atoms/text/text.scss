@@ -1,0 +1,18 @@
+.text {
+	/* 2 Block model */
+	margin: 0;
+
+	/* 3 Typography */
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	color: $color-black500;
+}
+.text--lh-md {
+	/* 3 Typography */
+	line-height: 22px;
+}
+.text--gray {
+	/* 3 Typography */
+	color: #898989;
+}

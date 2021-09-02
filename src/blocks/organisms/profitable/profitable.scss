@@ -1,0 +1,38 @@
+.profitable {
+	/* 2 Block model */
+	margin-bottom: 40px;
+	@media (min-width: 992px) {
+		/* 2 Block model */
+		margin-bottom: 80px;
+	}
+}
+.profitable__body {
+	/* 2 Block model */
+	margin-bottom: 30px;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		margin-bottom: 0;
+	}
+}
+.profitable__title {
+	/* 2 Block model */
+	max-width: 390px;
+	margin-bottom: 20px;
+}
+.profitable__list {
+	/* 2 Block model */
+	padding: 0;
+	padding-right: 10px;
+	margin: 0;
+
+	/* 4 Visual */
+	list-style: none;
+}
+.profitable__item {
+	/* 2 Block model */
+	margin-bottom: 12px;
+	&:last-child {
+		/* 2 Block model */
+		margin-bottom: 0;
+	}
+}

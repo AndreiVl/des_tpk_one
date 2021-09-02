@@ -1,0 +1,39 @@
+doctype html
+html(lang="ru")
+	include include/head.pug
+	+head('Комплектующих для дистилляции')
+
+	body
+		noscript
+			div
+				img(src="https://mc.yandex.ru/watch/67479265" style="position: absolute; left:-9999px;" alt="")
+
+		div.wrapper
+			include ../blocks/mixins.pug
+			include ../blocks/organisms/header/header.pug
+
+			main.main
+				include ../blocks/organisms/advantages/advantages.pug
+
+				div.container
+					div.row
+						div.col-12
+							include ../blocks/organisms/minimum/minimum.pug
+
+				include ../blocks/organisms/connections/connections.pug
+
+				include ../blocks/organisms/nozzle/nozzle.pug
+
+				include ../blocks/organisms/other/other.pug
+
+				include ../blocks/organisms/wholesalers/wholesalers.pug
+
+				include ../blocks/organisms/dealers/dealers.pug
+
+				include ../blocks/organisms/profitable/profitable.pug
+
+				include ../blocks/organisms/request/request.pug
+
+			include ../blocks/organisms/footer/footer.pug
+
+		include include/script.pug

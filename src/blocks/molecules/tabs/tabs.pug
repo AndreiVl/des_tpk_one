@@ -1,0 +1,5 @@
+mixin tabs(data)
+	ul.tabs__list(class!=attributes.class)
+		- for (var i = 0; i < data.items.length; i++)
+			li.tabs__item
+				a.tabs__link.text(href=data.items[i]['url'])!=data.items[i]['link']

@@ -1,0 +1,22 @@
+.other {
+	/* 2 Block model */
+	margin-bottom: 20px;
+	@media (min-width: 992px) {
+		/* 2 Block model */
+		margin-bottom: 60px;
+	}
+}
+.other__title {
+	/* 2 Block model */
+	margin-bottom: 40px;
+}
+.other__flex {
+	/* 2 Block model */
+	display: flex;
+	justify-content: center;
+
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		justify-content: flex-start;
+	}
+}
